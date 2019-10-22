@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        //okkk
         val language = listOf("Kotlin","Python","Ruby","JavaScript","PHP")
 
         list_view.adapter = ArrayAdapter(this, simple_list_item_1, language)
